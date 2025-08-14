@@ -1,2 +1,0 @@
-# PixelSnapshot_Release
-PixelSnapshot_Release
