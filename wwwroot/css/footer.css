@@ -1,0 +1,141 @@
+.pxsnap_footer {
+  width: 100%;
+  float: left;
+  clear: both;
+  position: fixed;
+  z-index: 2;
+  bottom: 0;
+  height: auto;
+}
+.pxsnap_ab_footer {
+  width: 100%;
+  float: left;
+  clear: both;
+  background-color: #f5f5f5;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  bottom: 0;
+  position: fixed;
+}
+.pxsnap_footer .instagram {
+  width: 100%;
+  clear: both;
+  float: left;
+  margin-top: 6px;
+  margin-bottom: 102px;
+}
+.pxsnap_footer .instagram_content {
+  max-width: 920px;
+  margin: 0px auto;
+}
+.pxsnap_footer .instagram_content ul {
+  list-style-type: none;
+  margin: 0px;
+  margin-left: -20px;
+  float: left;
+  position: relative;
+}
+.pxsnap_footer .instagram_content ul li {
+  margin: 0px;
+  width: 33.3333%;
+  float: left;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.pxsnap_footer .instagram_content ul li.follow {
+  position: absolute;
+  z-index: 99;
+  margin: 0px;
+  width: 98%;
+  text-align: center;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.pxsnap_footer .instagram_content .following {
+  display: inline-block;
+  background-color: #fff;
+  padding: 55px 150px 52px;
+  -webkit-box-shadow: 1px 1px 3px rgba(235, 16, 16, 0.3);
+  -moz-box-shadow: 1px 1px 3px rgba(235, 16, 16, 0.3);
+  box-shadow: 1px 1px 3px rgba(235, 16, 16, 0.3);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+.pxsnap_footer .instagram_content .following .svg {
+  width: 50px;
+  height: 50px;
+  color: #aaa;
+  display: block;
+  margin: 0px auto;
+  margin-bottom: 20px;
+}
+.pxsnap_footer .instagram_content .following h3 {
+  display: block;
+  font-size: 22px;
+  letter-spacing: 0px;
+  line-height: 1;
+  margin-bottom: 16px;
+}
+.pxsnap_footer .instagram_content .following p {
+  font-size: 15px;
+  letter-spacing: 0px;
+  line-height: 1;
+}
+.pxsnap_footer .copyright {
+  text-align: center;
+  clear: both;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+}
+.pxsnap_footer .copyright span {
+  font-size: 15px;
+  line-height: 1.5;
+  letter-spacing: 0px;
+  color: #ccc;
+}
+.pxsnap_ab_footer .copyright span a {
+  color: #000;
+  text-decoration: none;
+  position: relative;
+}
+.pxsnap_footer .copyright span a {
+  color: #ccc;
+  text-decoration: none;
+  position: relative;
+}
+.pxsnap_footer .copyright span a:after {
+  content: "";
+  width: 0;
+  height: 1px;
+  position: absolute;
+  bottom: -3px;
+  left: 100%;
+  background-color: #000;
+  -webkit-transition: left 0.5s ease, width 0.5s ease;
+  -moz-transition: left 0.5s ease, width 0.5s ease;
+  -ms-transition: left 0.5s ease, width 0.5s ease;
+  -o-transition: left 0.5s ease, width 0.5s ease;
+  transition: left 0.5s ease, width 0.5s ease;
+}
+.pxsnap_footer .copyright span a:hover:after {
+  width: 100%;
+  left: 0;
+  -webkit-transition: width 0.5s ease;
+  -moz-transition: width 0.5s ease;
+  -ms-transition: width 0.5s ease;
+  -o-transition: width 0.5s ease;
+  transition: width 0.5s ease;
+}

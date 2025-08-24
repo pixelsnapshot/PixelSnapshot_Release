@@ -1,0 +1,143 @@
+.pxsnap_mainslider {
+  width: 100%;
+  float: left;
+  height: 100vh;
+  clear: both;
+}
+.pxsnap_mainslider ul.slides > li {
+  margin: 0px;
+  overflow: hidden;
+  position: relative;
+  background: #000;
+}
+.pxsnap_mainslider .flexslider ul li:nth-child(1) .overlay_img {
+  background-image: url(../img/main_slider/1.jpg);
+}
+.pxsnap_mainslider .flexslider ul li:nth-child(2) .overlay_img {
+  background-image: url(../img/main_slider/PixelSnapshot_Portrait_Fashion_1H3A0958.jpg);
+}
+.pxsnap_mainslider .flexslider ul li:nth-child(3) .overlay_img {
+  background-image: url(../img/main_slider/3.jpg);
+}
+.pxsnap_mainslider .flexslider ul li:nth-child(4) .overlay_img {
+  background-image: url(../img/main_slider/4.jpg);
+}
+.pxsnap_mainslider .flexslider ul li:nth-child(5) .overlay_img {
+  background-image: url(../img/main_slider/5.jpg);
+}
+.pxsnap_mainslider .flexslider ul li:nth-child(6) .overlay_img {
+  background-image: url(../img/main_slider/6.jpg);
+}
+.pxsnap_mainslider .flexslider ul li:nth-child(7) .overlay_img {
+  background-image: url(../img/main_slider/7.jpg);
+}
+/* And more
+.pxsnap_mainslider .flexslider ul li:nth-child(8) .overlay_img {
+  background-image: url(../img/main_slider/8.jpg);
+}
+*/
+
+.pxsnap_mainslider .flexslider ul li .overlay {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 5;
+}
+.pxsnap_mainslider .flexslider ul li .overlay_img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  inset: 0px;
+  z-index: 10;
+}
+.pxsnap_mainslider .flexslider ul li .overlay_color {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 15;
+}
+.flex-direction-nav li {
+  margin: 0px;
+}
+.flex-direction-nav a.flex-prev {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+.flex-direction-nav a:before,
+.flex-direction-nav .myflex-text {
+  display: none;
+}
+.flex-direction-nav a {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.flex-direction-nav .myflex-nav {
+  display: block;
+  width: 25px;
+  height: 2px;
+  background-color: #fff;
+  margin-top: 29px;
+  margin-left: 19px;
+  position: relative;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.flex-direction-nav .myflex-nav.next {
+  margin-left: auto;
+  margin-right: 19px;
+}
+.flex-direction-nav .myflex-nav:after {
+  content: "";
+  position: absolute;
+  display: block;
+  left: 0px;
+  top: -4px;
+  width: 10px;
+  height: 2px;
+  background-color: #fff;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+.flex-direction-nav .myflex-nav:before {
+  content: "";
+  position: absolute;
+  display: block;
+  left: 0px;
+  top: 4px;
+  width: 10px;
+  height: 2px;
+  background-color: #fff;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.flex-direction-nav .myflex-nav.next:after {
+  left: auto;
+  right: 0px;
+  top: 4px;
+}
+.flex-direction-nav .myflex-nav.next:before {
+  left: auto;
+  right: 0px;
+  top: -4px;
+}
+.flexslider:hover .flex-direction-nav a:hover .myflex-nav.prev {
+  margin-left: 9px;
+}
+.flexslider:hover .flex-direction-nav a:hover .myflex-nav.next {
+  margin-right: 9px;
+}
+.pxsnap_mainslider .flexslider ul.slides > li {
+  height: 100vh;
+}

@@ -1,0 +1,27 @@
+.pxsnap_contact{float:left;clear:both;width:100%;background-color:transparent;}
+.pxsnap_contact_in{float:left;clear:both;width:100%;margin-top: 10%;}
+.pxsnap_contact .contact{width:100%;padding:0px 30px;float:left;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+.pxsnap_contact .title_holder{margin-bottom:67px;margin-top:-8px;}
+.pxsnap_contact .title_holder h3{margin:0px;font-size:36px;line-height:1.3;letter-spacing:0px;color:#fff;}
+.pxsnap_contact .contact__form{float:left;clear:both;width:100%;}
+.pxsnap_contact .contact__form ul{margin:0px;list-style-type:none;margin-left:-20px;}
+.pxsnap_contact .contact__form ul li{margin:0px;width:33.3333%;float:left;padding-left:20px;margin-bottom:34px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+.pxsnap_contact .contact__form ul li .item{display:block;width:100%;float:left;text-align:left;}
+.pxsnap_contact .contact__form ul li .item input{width:100%;background-color:transparent;border:1px solid transparent;border-bottom-color:rgba(255,255,255,.3);padding:10px 0px !important;color:#fff;font-size:15px;letter-spacing:0px;font-family:'Anonymous Pro', monospace;}
+.pxsnap_contact .contact__form ul li .item input:hover,
+.pxsnap_contact .contact__form ul li .item input:focus{border-bottom-color:#fff;}
+.pxsnap_contact .contact__form .message textarea::-webkit-input-placeholder,
+.pxsnap_contact .contact__form .message textarea:-moz-placeholder,
+.pxsnap_contact .contact__form .message textarea::-moz-placeholder,
+.pxsnap_contact .contact__form .message textarea:-ms-input-placeholder,
+.pxsnap_contact .contact__form .message textarea::-ms-input-placeholder,
+.pxsnap_contact .contact__form ul li .item input::-webkit-input-placeholder,
+.pxsnap_contact .contact__form ul li .item input:-moz-placeholder,
+.pxsnap_contact .contact__form ul li .item input::-moz-placeholder,
+.pxsnap_contact .contact__form ul li .item input:-ms-input-placeholder,
+.pxsnap_contact .contact__form ul li .item input::-ms-input-placeholder{font-size:15px;letter-spacing:0px;color:#999;font-family:'Anonymous Pro', monospace;opacity:1;}
+.pxsnap_contact .contact__form .message textarea{width:100%;background-color:transparent;border:1px solid transparent;border-bottom-color:rgba(255,255,255,.3);padding:10px 0px !important;color:#fff;font-size:15px;letter-spacing:0px;font-family:'Anonymous Pro', monospace;}
+.pxsnap_contact .contact__form .message textarea:hover{border-bottom-color:#fff;}
+.pxsnap_contact .contact__form .message{margin-bottom:26px;}
+.pxsnap_contact .pxsnap_contactsendbtn{width:auto;background-color:transparent;border:1px solid transparent;border-bottom-color:#fff;padding:10px 0px !important;color:#fff;font-size:15px;letter-spacing:0px;font-family:'Anonymous Pro', monospace;margin-bottom:20px;-webkit-transition:all .5s ease;-moz-transition:all .5s ease;-ms-transition:all .5s ease;-o-transition:all .5s ease;transition:all .5s ease;}
+.pxsnap_contact .pxsnap_contactsendbtn:hover{border-bottom-color:transparent;}
